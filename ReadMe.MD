@@ -9,3 +9,15 @@ django-admin startproject backend
 
 ''' create a django app '''
 python manage.py startapp base
+
+'''django migrations'''
+python manage.py migrate
+
+'''create superuser '''
+python manage.py createsuperuser
+
+kaskatgtwo
+
+''' After creating a model run '''
+python manage.py makemigrations 
+python manage.py migrate
