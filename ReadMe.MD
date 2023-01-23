@@ -21,3 +21,10 @@ kaskatgtwo
 ''' After creating a model run '''
 python manage.py makemigrations 
 python manage.py migrate
+
+'''image processing library'''
+pip install pillow
+
+
+'''redux installation'''
+npm install redux react-redux redux-thunk redux-devtools-extension
